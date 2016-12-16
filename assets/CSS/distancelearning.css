@@ -1,0 +1,222 @@
+.csdmlogo  {
+    width: 300px;
+}
+
+.maintext{
+    text-align: center;
+    color: purple;
+    border: solid;
+    border-color: purple;
+    border-width: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#maintext{
+    padding: 20px;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+.Expand{
+    text-align: center;
+    padding-left: 125px;
+}
+
+
+
+#Nav_Bar{
+    float: right;
+    padding: 30px 10px 0 0;
+}
+
+#Nav_Bar li a {
+    font-size: 15px;
+    color: purple;
+}
+
+.SearchBar{
+    float: right;
+    -webkit-border-radius: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+
+#Search {
+    background-color: white;
+}
+
+.Glass {
+    float: right;
+    width: 25px;
+}
+
+body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300px;
+    font-size: 30px;
+    color: mediumpurple;
+    text-align: center;
+    padding: 0 10px 10px 50px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #363636;
+}
+#csdmlogo{
+    width: 300px;
+}
+
+.content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion {
+    background-color: #791d7e;
+    color: white;
+    padding: 10px;
+    width: 75%;
+    text-align: left;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    /*Transitions for a smoother opening/closing of panels*/
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+
+.panel {
+    padding: 0;
+    background-color: white;
+    display: block;
+    /*max-height is the attribute that controls the show/hide of the panel*/
+    max-height: 0;
+    -webkit-transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+
+.panel.show{
+    max-height: 500px !important;
+    position: relative;
+    top: 80%;
+    left: 0;
+}
+
+
+/* Changes Accordion background color on hover and when panel is open */
+.accordion.active,
+.accordion:hover{
+    background-color: #a02686;
+}
+
+.Expand {
+    width: 75%;
+}
+
+.firstaccordian{
+    margin-top: 40px;
+}
+
+.searchlogo {
+    width: 20px;
+    float: right;
+}
+
+#fb{
+    width: 66px;
+    height: 66px;
+}
+
+#tw{
+    width: 66px;
+    height: 66px;
+}
+
+#yt{
+    width: 66px;
+    height: 66px;
+}
+
+#li{
+    width: 66px;
+    height: 66px;
+}
+
+#plus{
+    width: 66px;
+    height: 66px;
+}
+
+#pin{
+    width: 66px;
+    height: 66px;
+}
+
+#ins{
+    width: 66px;
+    height: 66px;
+}
+
+#fkl{
+    width: 66px;
+    height: 66px;
+}
+
+footer {
+    float: right;
+    width: 558px;
+    height: 70px;
+    padding-left: 5px;
+    padding-right: 1px;
+}
+
+#social {
+    font-family: 'Roboto',sans-serif;
+    font-size: 35px;
+    color: mediumpurple;
+    text-align: center;
+}
+
+.media {
+    float: left;
+    padding-right: 80px;
+    list-style-type: none;
+    display: flex;
+}
+
+h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    color: mediumpurple;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: mediumpurple;
+}
